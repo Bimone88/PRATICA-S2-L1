@@ -19,7 +19,7 @@ REGOLE
  -boolean --> per definire se il valore sia vero o falso(true or false);
  -symbol --> rappresenta un identificatore univoco;
  -object --> rappresenta un oggetto;
- -bigInt --> è uno speciale tipo numerico che supporta numeri interi di lunghezza arbitraria;
+ -bigInt --> è uno speciale tipo numerico che supporta numeri interi di lunghezza arbitraria; */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -78,8 +78,11 @@ let name2 = "John"
 console.log('john e John non sono uguali' ,name1 !== name2) // true
 console.log('john e John non sono uguali' ,!(name1 !== name2)) //false
 
-//EXTRA:
-let name1LowerCase = name1.toLowerCase()
-let name2LowerCase = name2.toLowerCase()
-console.log(name1 === name2) 
+// potevo anche creare una "let uguaglianza = name1 !== name2"
+
+//EXTRA: 
+// NO let name1LowerCase = name1.toLowerCase()
+// NO let name2LowerCase = name2.toLowerCase()
+console.log(name1.toLowerCase() === name2.toLowerCase()) 
 /* SCRIVI QUI LA TUA RISPOSTA */
+// FINE
